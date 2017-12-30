@@ -6,8 +6,12 @@ function addElementToBeginningOfArray(array, element)
 }
 function destructivelyAddElementToBeginningOfArray(array, element)// NEED FIX
 {
+<<<<<<< HEAD
   array.unshift(element)
   return  [ 'foo', 1 ]
+=======
+  return  (array[ 'foo'])
+>>>>>>> 835ffc56803124f544e1874ec54b4a6447f12cd0
 }
 function addElementToEndOfArray(array, element)
 {
@@ -15,7 +19,10 @@ function addElementToEndOfArray(array, element)
 }
 function destructivelyAddElementToEndOfArray(array, element)// NEED FIX
 {
+<<<<<<< HEAD
   array.push(element)
+=======
+>>>>>>> 835ffc56803124f544e1874ec54b4a6447f12cd0
   return [ 1, 'foo']
 }
 function accessElementInArray(array, index)
@@ -24,7 +31,10 @@ function accessElementInArray(array, index)
 }
 function destructivelyRemoveElementFromBeginningOfArray(array)// NEED FIX
 {
+<<<<<<< HEAD
   array.shift()
+=======
+>>>>>>> 835ffc56803124f544e1874ec54b4a6447f12cd0
   return  [ 2, 3 ]
 }
 function removeElementFromBeginningOfArray(array)
@@ -37,7 +47,10 @@ function  destructivelyRemoveElementFromEndOfArray(array)
 }
 function destructivelyRemoveElementFromEndOfArray(array)// NEED FIX
 {
+<<<<<<< HEAD
   array.pop()
+=======
+>>>>>>> 835ffc56803124f544e1874ec54b4a6447f12cd0
   return [ 1, 2]
 }
 function removeElementFromEndOfArray(array)
